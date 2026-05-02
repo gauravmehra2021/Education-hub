@@ -1,9 +1,11 @@
+import Hero from "./components/Hero"
 import Tracks from "./components/Tracks"
 
 const Home = () => {
   return (
-<div className="max-w-7xl mx-auto px-6" >
+<div>
    <Tracks/>
+   <Hero/>
     </div>
   )
 }
