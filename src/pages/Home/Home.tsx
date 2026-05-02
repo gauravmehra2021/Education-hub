@@ -1,8 +1,9 @@
+import Tracks from "./components/Tracks"
 
 const Home = () => {
   return (
-    <div>
-      Home
+<div className="max-w-7xl mx-auto px-6" >
+   <Tracks/>
     </div>
   )
 }
